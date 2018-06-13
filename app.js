@@ -51,12 +51,12 @@ function hundir() {
       }
         if (arrayFlota[fila][columna] === '🌊') {
             arrayUser[fila][columna] = '🌊'
-            console.log('agua')
+            console.log('AGUA!!!!')
             console.table(arrayUser)
         } else {
             arrayUser[fila][columna] = '❌'
             countBoats++
-            console.log('tocado')
+            console.log('TOCADO!!!!')
             console.table(arrayUser)
         }
         checkEndGame()
@@ -77,3 +77,4 @@ function hundir() {
 }
 
 hundir()
+//test
